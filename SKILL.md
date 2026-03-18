@@ -26,7 +26,7 @@ argument-hint: [报告路径] 或 compare [报告A] [报告B]
 
 ```
 请问您希望使用哪种联网检索工具进行Fact Check？
-1. WebFetch/WebSearch（默认）- Claude Code内置工具
+1. WebFetch（默认）- 内置工具
 2. Firecrawl API - 需要提供API密钥
 3. 其他工具 - 请说明具体工具和配置方式
 4. 跳过Fact Check - 仅进行质量评估
@@ -35,7 +35,7 @@ argument-hint: [报告路径] 或 compare [报告A] [报告B]
 ```
 
 根据用户选择：
-- **选项1**：使用WebFetch和WebSearch工具
+- **选项1**：使用WebFetch工具
 - **选项2**：询问用户Firecrawl API密钥配置位置
 - **选项3**：询问用户具体工具使用方法
 - **选项4**：跳过Fact Check阶段
