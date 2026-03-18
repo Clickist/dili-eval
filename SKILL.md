@@ -2,7 +2,6 @@
 name: dili-eval
 description: DILI尽调报告质量评估工具。对投资尽职调查报告进行五维度质量评估和事实核查。触发条件：用户要求评估尽调报告、尽职调查报告、投资报告质量时。
 argument-hint: [报告路径] 或 compare [报告A] [报告B]
-disable-model-invocation: true
 ---
 
 # DILI尽调报告评估工具
